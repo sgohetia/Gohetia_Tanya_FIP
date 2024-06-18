@@ -1,7 +1,7 @@
 (function () {
   console.log("linked!"); //This means that our JS is connected
 
-  //This script here is for the burger menu toggle on mobile display
+  //This script here is for the burger menu toggle on mobile screen
   //To select the nav-menu, menu-icon and the link inside the menu-icon we use the getElementById and querySelector
 
   const iconNav = document.querySelector("#menu-icon");
@@ -26,15 +26,4 @@
   //To select all elements in the node list we use querySelectorAll
   const clickFruits = document.querySelectorAll(".icon-container object");
   console.log(clickFruits);
-
-  //In this condition or function, we implement it directly to the SVG using the script tag since we are using Object tag.
-
-  //This is a funtion to execute the event for the forEach method
-  // function logId() {
-  //   console.log(this.id);
-  // }
-  //This is a loop through the clickFruits nodelist usig forEach method
-  // clickFruits.forEach(function (object) {
-  //   object.addEventListener("click", logId);
-  // });
 })();
