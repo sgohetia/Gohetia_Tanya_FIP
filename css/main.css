@@ -8,7 +8,7 @@
 
 body {
   font-family: "Albert Sans", sans-serif;
-  background: #190019;
+  background-image: url(../image/Burple-web-bg.png);
   color: #fff;
 }
 body img {
@@ -349,6 +349,10 @@ textarea {
     gap: 20px;
     margin: 10px;
   }
+
+  .cover-image {
+    height: 40vh;
+  }
 }
 
 /* This is for the Tablet device */
@@ -362,5 +366,24 @@ textarea {
   #contact-hero-text {
     padding-top: 50px;
     margin-top: 20px;
+  }
+
+  .cover-image {
+    height: 60vh;
+  }
+}
+
+
+/*This is for screens smaller than 300px*/
+@media (max-width: 300px) {
+  .cover-image {
+    height: 20vh;
+  }
+}
+
+/*This is for screens smaller than 480px*/
+@media (max-width: 480px) {
+  .cover-image {
+    height: 40vh;
   }
 }
