@@ -7,7 +7,7 @@ Each team or individual is responsible for designing, coding, and semantically t
 1. Icon Animation
 2. Contact Form
 3. Responsive Website
-4. Aout Us
+4. About Us
 
 ## Installation
 
