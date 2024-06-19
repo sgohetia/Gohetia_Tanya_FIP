@@ -8,7 +8,7 @@
 
 body {
   font-family: "Albert Sans", sans-serif;
-  background-image: url(../image/Burple-web-bg.png);
+  background-image: url("../image/Burple-web-bg.png");
   color: #fff;
 }
 body img {
@@ -94,7 +94,7 @@ nav a:hover {
 /* This is the style for Cover Image */
 
 .cover-image {
-  background-image: url(/image/burple-hero-img.png);
+  background-image: url("../image/burple-hero-img.png");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -372,7 +372,7 @@ textarea {
 /*This is for screens smaller than 300px*/
 @media (max-width: 300px) {
   .cover-image {
-    background-image: url(/image/burple-hero-mobile.png);
+    background-image: url("../image/burple-hero-mobile.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
@@ -382,7 +382,7 @@ textarea {
 /*This is for screens smaller than 480px*/
 @media (max-width: 480px) {
   .cover-image {
-    background-image: url(/image/burple-hero-mobile.png);
+    background-image: url("../image/burple-hero-mobile.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
