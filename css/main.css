@@ -9,6 +9,7 @@
 body {
   font-family: "Albert Sans", sans-serif;
   background-image: url("../image/Burple-web-bg.png");
+  background-attachment: fixed;
   color: #fff;
 }
 body img {
@@ -376,6 +377,8 @@ textarea {
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
+    padding: 0;
+    margin: 0 auto;
   }
 }
 
@@ -386,5 +389,7 @@ textarea {
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
+    padding: 0;
+    margin: 0 auto;
   }
 }
