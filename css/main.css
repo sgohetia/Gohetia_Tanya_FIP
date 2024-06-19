@@ -349,10 +349,6 @@ textarea {
     gap: 20px;
     margin: 10px;
   }
-
-  .cover-image {
-    height: 40vh;
-  }
 }
 
 /* This is for the Tablet device */
@@ -373,17 +369,22 @@ textarea {
   }
 }
 
-
 /*This is for screens smaller than 300px*/
 @media (max-width: 300px) {
   .cover-image {
-    height: 20vh;
+    background-image: url(../image/burple-hero-mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
   }
 }
 
 /*This is for screens smaller than 480px*/
 @media (max-width: 480px) {
   .cover-image {
-    height: 40vh;
+    background-image: url(../image/burple-hero-mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
   }
 }
